@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Aplicación Flask - Ejercicios</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='styles.css') }}">
+</head>
+<body>
+    <div class="container">
+        <h2>Seleccione un Ejercicio</h2>
+
+        <div class="button-container">
+            <a href="{{ url_for('ejer1') }}" class="button">Ejercicio 1</a>
+            <a href="{{ url_for('ejer2') }}" class="button">Ejercicio 2</a>
+        </div>
+    </div>
+</body>
+</html>
